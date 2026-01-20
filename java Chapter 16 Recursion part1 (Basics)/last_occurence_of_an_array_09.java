@@ -14,8 +14,8 @@ public class last_occurence_of_an_array_09 {
 
     public static void main(String[] args) {
         int arr[] = {2,4,6,4};
-        System.out.println(last_occurence(arr, 4, 0));
-        System.out.println(last_occurence(arr, 10, 0));
+        System.out.println(last_occurence(arr, 4, 0))  ;
+        System.out.println(last_occurence(arr, 10, 0)) ;
         // System.out.println(last_occurence(arr, 8, 0));
     }
 }

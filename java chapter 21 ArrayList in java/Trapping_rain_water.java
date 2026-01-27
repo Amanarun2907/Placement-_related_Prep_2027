@@ -23,21 +23,24 @@ public class Trapping_rain_water{
        // make a structure for left height
        ArrayList<Integer> left_height = new ArrayList<>(); // Auxillary array 
        
-       left_height.add(list.get(0));
+       left_height.add(0,list.get(0));
+     
          // make a structure for right height
        ArrayList<Integer> right_height = new ArrayList<>(); // Auxillary array 
        right_height.add(0,list.get(list.size()-1)); // starting from last index
       // list.add (i,element) // it will shift all other element and place this element at the index i
 
       // filling the left_height
-      for(int i = 1; i <list.size();i++){
-        left_height.add(Math.max(left_height.get(i-1),list.get(i)));
+      for(int i = 1; i<list.size();i++){
+       left_height.add(Math.max(left_height.get(i-1),list.get(i)));
+        
       }
 
         // filling the right_height
         
       for(int i = list.size()-2 ; i>=0;i--){
         right_height.add(0,Math.max(right_height.get(0),list.get(i)));
+        
       }
      int ans = 0;
      for(int i = 0;i<list.size();i++){

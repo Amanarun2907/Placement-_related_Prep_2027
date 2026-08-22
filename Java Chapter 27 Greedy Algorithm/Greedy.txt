@@ -1,0 +1,23 @@
+
+
+You need to solve the question of job sequencing : https://www.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1
+
+Maximum_length_chain_of_pair : https://www.geeksforgeeks.org/problems/maximum-length-chain-of-pairs/1
+
+minimum-sum-of-absolute-differences-of-pairs : https://www.geeksforgeeks.org/problems/minimum-sum-of-absolute-differences-of-pairs/1
+
+fractional-knapsack : https://www.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
+
+minimum-cost-to-cut-a-board-into-squares : https://www.geeksforgeeks.org/problems/minimum-cost-to-cut-a-board-into-squares/1
+
+
+Please solve this after dynamic programming : https://www.geeksforgeeks.org/problems/number-of-coins1824/1
+
+
+
+
+
+
+
+
+
